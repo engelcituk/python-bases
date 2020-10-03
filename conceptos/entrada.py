@@ -16,4 +16,7 @@ print('peso', peso)
 print('autorizado', autorizado)
 
 
-
+"""
+este es un comentario con saltos de linea
+para comentar multilinea
+"""
