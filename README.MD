@@ -12,5 +12,5 @@ Para empezar de lleno con las bases para aprender python en un nivel profesional
 8. Funciones
 9. Clases
 10. Módulos y paquetes
-11. Exrras
+11. Extras
 
