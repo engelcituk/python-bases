@@ -17,10 +17,10 @@ class Perro(Animal, Mascota): #para que una clase herede de otra se pone () y en
   def ladrar(self):
     print("Ladrando")
 
-  def dormir(self):
+  def dormir(self): #Sobre escritura de métodos
     print(self.nombre, "esta durmiendo!")
-    Animal.dormir(self)
-    print("No molestar")
-
+    Animal.dormir(self) #para añadir más funcionalidades al metodo padre
+    print("No molestar") #sobreescribir metodo 
+    
 firulais = Perro("Firulais")
 firulais.dormir()
