@@ -5,7 +5,7 @@ class Usuario:
     self.correo = correo
     self.nombre = nombre
 
-  def saluda(self):
+  def saluda(self): #todos los metodos deben  de recibir un parametro, self es por convencion, hace referencia al objeto en si
     return "Hola, soy un usuario " + self.nombre
 
   def mostrar_username(self):
