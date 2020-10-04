@@ -1,6 +1,6 @@
 class Usuario:
 
-  def __init__(self, username='', correo='', nombre=''): #init es como el constructor, para inicializar atributos, siempre lleva self
+  def __init__(self, username='', correo='', nombre=''): #init es similar a un constructor, para inicializar atributos, siempre lleva self
     self.username = username
     self.correo = correo
     self.nombre = nombre
