@@ -2,6 +2,8 @@ import calculadora
 #from calculadora import * #hace referencia a que se va utilizar todas la funciones del modulo calculadora
 #from calculadora import suma, resta, multiplicacion, division #se puede o omitir el asterisco indicando especificamente el método a ocupar
 
+from animales.aves import Pinguino # se indica en que modulo
+
 """ podemos hacer saltos de linea a las importaciones si estas son demasiadas y ponerlas enntre parentesis
 from calculadora import (suma,
                          resta,
@@ -24,3 +26,8 @@ from calculadora import (suma,
 
 print(calculadora.__name__)
 print(__name__)
+
+
+pinguino = Pinguino()
+pinguino.nadar()
+
