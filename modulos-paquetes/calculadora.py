@@ -10,3 +10,9 @@ def multiplicacion(val1, val2):
 
 def division(val1, val2):
   return val1 / val2 
+
+if __name__ == '__main__':
+    print('Soy un mensaje de calcularodra')
+else:
+   print('Estoy siendo usado como modulo')
+
